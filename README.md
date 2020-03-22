@@ -1,1 +1,1 @@
-TinDog langind page.
+TinDog landing page.
