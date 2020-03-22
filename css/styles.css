@@ -1,145 +1,192 @@
 body {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 400;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
 }
 
 #title {
-    background-color: #1fc5f2;
+  background-color: #1fc5f2;
 }
 
 .row {
-    margin-left: 0;
-    margin-right: 0; 
+  margin-left: 0;
+  margin-right: 0;
 }
 
 .container-fluid {
-    padding: 3% 15% 7%;
+  padding: 3% 15% 7%;
 }
 
 h1 {
-    color: white;
-    font-weight: 900;
-    font-size: 3.5rem;
-    line-height: 1.5;
+  color: white;
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5;
 }
 
 h2 {
-    font-weight: 700;
-    font-size: 3rem;
-    line-height: 1.5;
+  font-weight: 800;
+  font-size: 3rem;
+  line-height: 1.5;
 }
 
 h3 {
-    font-weight: 700;
-    font-size: 1.5 rem;
+  font-weight: 900;
+  font-size: 2rem;
+}
+
+h4 {
+  font-weight: 700;
+  font-size: 1.5rem;
 }
 
 p {
-    color: #8f8f8f
+  color: #8f8f8f;
 }
 
 .dowload-icon {
-    margin-right: 5px;
+  margin-right: 5px;
 }
 
 /* Navbar */
 
 .navbar {
-    padding: 0 0 4.5rem;
+  padding: 0 0 4.5rem;
 }
 
 .navbar-brand {
-    font-family: "Ubuntu", sans-serif;
-    font-size: 2rem;
-    font-weight: bold;
-    margin-left: 15px;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 2rem;
+  font-weight: bold;
+  margin-left: 15px;
 }
 
 .nav-item {
-    padding: 0 18px;
+  padding: 0 18px;
 }
 
 .nav-link {
-    font-size: 1.2 rem;
-    font-weight: 400;
+  font-size: 1.2 rem;
+  font-weight: 400;
 }
 
 /* Download Buttons */
 
 .download-button {
-    margin: 5% 3% 5% 0;
+  margin: 5% 3% 5% 0;
 }
 
 /* Title Image */
 
 .title-image {
-    width: 60%;
-    transform: rotate(25deg);
-    position: absolute;
-    right: 30%;
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
 }
 
 /* Features */
 
 #features {
-    background-color: white;
-    padding: 7% 15%;
-    z-index: 1;
-    position: relative;
+  background-color: white;
+  padding: 7% 15%;
+  z-index: 1;
+  position: relative;
 }
 
 .feature-box {
-    text-align: center;
-    padding: 5%
+  text-align: center;
+  padding: 5%;
 }
 
 .feature-icon {
-    margin-bottom: 1rem;
-    color: #1fc5f2
+  margin-bottom: 1rem;
+  color: #1fc5f2;
 }
 
 .feature-icon:hover {
-    color: #4bd4fa;
+  color: #4bd4fa;
 }
 
 /* Testimonial section */
 
 #testimonials {
-    text-align: center;
-    background-color: #4bd4fa;
-    color: white;
+  text-align: center;
+  background-color: #4bd4fa;
+  color: white;
 }
 
 .carousel-item {
-    padding: 7% 15%;
+  padding: 7% 15%;
 }
 
 .testimonial-image {
-    width: 10%;
-    border-radius: 100%;
-    margin: 15px;
+  width: 10%;
+  border-radius: 100%;
+  margin: 15px;
 }
 
 /* Press section */
 
 #press {
-    text-align: center;
-    background-color: #4bd4fa;
-    padding-bottom: 3%;
+  text-align: center;
+  background-color: #4bd4fa;
+  padding-bottom: 3%;
 }
 
 .press-logo {
-    width: 15%;
-    margin: 20px 20px 50px;
+  width: 15%;
+  margin: 20px 20px 50px;
 }
 
 /* Pricing section */
 
 #pricing {
-    padding: 100px;
-    text-align: center;
+  padding: 100px;
+  text-align: center;
 }
 
 .pricing-column {
-    padding: 3% 2%;
+  padding: 3% 2%;
+}
+
+/* CTA */
+
+#cta {
+  text-align: center;
+  background-color: #4bd4fa;
+  padding: 50px 0 100px;
+}
+
+.cta-text {
+  color: white;
+  margin: 0 15%;
+}
+
+.cta-button {
+    margin: 5% 10px 3%;
+
+}
+
+/* Footer */
+
+#footer {
+  margin: 100px;
+  text-align: center;
+}
+
+.ft-icon {
+    margin: 0 20px 30px;
+}
+
+/* Media Queries */
+
+@media (max-width: 990px) {
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
 }
